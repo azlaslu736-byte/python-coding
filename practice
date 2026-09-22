@@ -1,0 +1,16 @@
+n=int(input("totalnoofmonkeys"))
+k=int(input("banana"))
+j=int(input("peanut"))
+m=int(input("bananapermonkey"))
+p=int(input("peanutpermonkey"))
+
+if n<=0 or k<=0 or j<=0 or m<=0 or p<=0:
+  print("invalid input")
+
+else:
+ mb= m//k
+ mp= p//j
+ md=mb+mp
+
+monkeyleft=n-md
+print("noofmonkeysleft:",monkeyleft)
